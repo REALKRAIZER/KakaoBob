@@ -1,0 +1,6 @@
+path_myheaders = /home/user/myheaders
+path_mylibs = /home/user/mylibs
+path_kakaobob = /home/user/bob
+
+kakaobob: $(path_kakaobob)/kakaobob.c $(path_mylibs)/libcustomsocket.c $(path_myheaders)/customsocket.h $(path_mylibs)/libsha2.c $(path_myheaders)/kakao.h $(path_myheaders)/mystdlib.h $(path_mylibs)/libmystdlib.c $(path_mylibs)/minIni.c $(path_myheaders)/minIni.h $(path_myheaders)/minGlue.h $(path_mylibs)/play_wav.c $(path_myheaders)/play_wav.h
+	gcc -I/usr/include/mysql -I$(path_myheaders) $(path_mylibs)/libsha2.c $(path_mylibs)/libcustomsocket.c $(path_mylibs)/minIni.c $(path_mylibs)/libmystdlib.c -I/usr/include/glib-2.0 -I/usr/lib/x86_64-linux-gnu/glib-2.0/include -lpthread $(path_kakaobob)/kakaobob.c `pkg-config --cflags --libs glib-2.0` -o kakaobob `pkg-config --cflags --libs gtk+-3.0` -rdynamic -lm -L/usr/lib -lmysqlclient $(path_mylibs)/play_wav.c -lSDL2

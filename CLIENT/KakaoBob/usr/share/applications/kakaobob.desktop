@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=KakaoBob
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Exec=env GTK_DATA_PREFIX=/usr/share/themes/KakaoBob GTK_THEME=Midnight-BlueNight /usr/bin/kakaobob
+Name=KakaoBob
+Icon=/usr/share/icons/hicolor/512x512/apps/kakaobob.png

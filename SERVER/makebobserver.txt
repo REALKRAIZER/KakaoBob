@@ -1,0 +1,7 @@
+path_myheaders = /home/user/myheaders
+path_mylibs = /home/user/mylibs
+path_bobserver = /home/user/bob
+
+KakaoBobServer: $(path_bobserver)/KakaoBobServer.c $(path_mylibs)/libcustomsocket.c $(path_mylibs)/libsha2.c $(path_myheaders)/kakao.h $(path_mylibs)/minIni.c $(path_mylibs)/libmystdlib.c
+	gcc $(path_bobserver)/KakaoBobServer.c -I/usr/include/mysql -I$(path_myheaders) -lpthread -lmysqlclient $(path_mylibs)/libsha2.c $(path_mylibs)/minIni.c $(path_mylibs)/libmystdlib.c $(path_mylibs)/libcustomsocket.c -o KakaoBobServer
+	

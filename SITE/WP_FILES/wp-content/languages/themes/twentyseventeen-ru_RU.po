@@ -1,0 +1,322 @@
+# Translation of Themes - Twenty Seventeen in Russian
+# This file is distributed under the same license as the Themes - Twenty Seventeen package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-03-31 20:44:55+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Themes - Twenty Seventeen\n"
+
+#: template-parts/footer/footer-widgets.php:18
+msgid "Footer"
+msgstr "Подвал"
+
+#: functions.php:338 sidebar.php:18
+msgid "Blog Sidebar"
+msgstr "Боковая панель блога"
+
+#: functions.php:340
+msgid "Add widgets here to appear in your sidebar on blog posts and archive pages."
+msgstr "Добавить виджеты, которые появятся на боковой панели в записях блога и страницах архива."
+
+#: template-parts/navigation/navigation-top.php:31
+#: template-parts/header/site-branding.php:34
+msgid "Scroll down to content"
+msgstr "Перейти к содержимому"
+
+#: functions.php:181
+msgctxt "Theme starter content"
+msgid "Coffee"
+msgstr "Кофе"
+
+#: functions.php:177
+msgctxt "Theme starter content"
+msgid "Sandwich"
+msgstr "Сэндвич"
+
+#: functions.php:173
+msgctxt "Theme starter content"
+msgid "Espresso"
+msgstr "Эспрессо"
+
+#: inc/custom-header.php:128
+msgid "Pause background video"
+msgstr "Приостановить фоновое видео"
+
+#: inc/custom-header.php:127
+msgid "Play background video"
+msgstr "Проиграть фоновое видео"
+
+#: inc/customizer.php:109
+msgid "When the two-column layout is assigned, the page title is in one column and content is in the other."
+msgstr "При назначении разметки в два столбца, название страницы размещается в первом столбце, а содержимое в другом."
+
+#. translators: %s: The section ID.
+#: inc/template-tags.php:158
+msgid "Front Page Section %s Placeholder"
+msgstr "Заполнитель %s раздела главной страницы"
+
+#: single.php:34
+msgid "Next Post"
+msgstr "Следующая запись"
+
+#: index.php:27
+msgid "Posts"
+msgstr "Записи"
+
+#: inc/template-tags.php:89
+msgid "Tags"
+msgstr "Метки"
+
+#: inc/template-tags.php:85
+msgid "Categories"
+msgstr "Рубрики"
+
+#: inc/customizer.php:89
+msgid "Theme Options"
+msgstr "Настройки темы"
+
+#: inc/customizer.php:60
+msgid "Color Scheme"
+msgstr "Цветовая схема"
+
+#: inc/customizer.php:62
+msgid "Light"
+msgstr "Светлая"
+
+#: inc/customizer.php:64
+msgid "Custom"
+msgstr "Пользовательская"
+
+#: inc/customizer.php:111 inc/customizer.php:170
+msgid "One Column"
+msgstr "Один столбец"
+
+#: inc/customizer.php:112 inc/customizer.php:171
+msgid "Two Column"
+msgstr "Два столбца"
+
+#: inc/custom-header.php:56
+msgid "Default Header Image"
+msgstr "Изображение заголовка по умолчанию"
+
+#. translators: %s: Post date.
+#: inc/template-tags.php:52
+msgid "<span class=\"screen-reader-text\">Posted on</span> %s"
+msgstr "<span class=\"screen-reader-text\">Опубликовано</span> %s"
+
+#. translators: Used between list items, there is a space after the comma.
+#: inc/template-tags.php:66
+msgid ", "
+msgstr ", "
+
+#: inc/customizer.php:106
+msgid "Page Layout"
+msgstr "Разметка страницы"
+
+#. translators: %d: The front page section number.
+#: inc/customizer.php:142
+msgid "Front Page Section %d Content"
+msgstr "Содержимое %d раздела главной страницы"
+
+#: inc/icon-functions.php:44
+msgid "Please define an SVG icon filename."
+msgstr "Пожалуйста, определите имя файла для SVG значка."
+
+#: inc/icon-functions.php:39
+msgid "Please define default parameters in the form of an array."
+msgstr "Пожалуйста, определите параметры по умолчанию в форме массива."
+
+#: inc/customizer.php:143
+msgid "Select pages to feature in each area from the dropdowns. Add an image to a section by setting a featured image in the page editor. Empty sections will not be displayed."
+msgstr "Выберите избранные страницы для каждой области из выпадающих списков. Добавьте изображение в раздел установив избранное изображение в редакторе страницы. Пустые разделы не будут показаны."
+
+#. translators: %s: Post author.
+#: inc/template-tags.php:21
+msgid "by %s"
+msgstr "Автор: %s"
+
+#: functions.php:350
+msgid "Footer 1"
+msgstr "Подвал 1"
+
+#: functions.php:362
+msgid "Footer 2"
+msgstr "Подвал 2"
+
+#: functions.php:290
+msgctxt "Libre Franklin font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:352 functions.php:364
+msgid "Add widgets here to appear in your footer."
+msgstr "Добавьте сюда виджеты для отображения в подвале сайта."
+
+#: functions.php:64 functions.php:205
+#: template-parts/navigation/navigation-top.php:12
+msgid "Top Menu"
+msgstr "Верхнее меню"
+
+#: comments.php:62
+msgid "Reply"
+msgstr "Ответить"
+
+#: search.php:59
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Извините, по вашему запросу ничего не найдено. Попробуйте другие ключевые слова."
+
+#: template-parts/post/content-none.php:17 search.php:26
+msgid "Nothing Found"
+msgstr "Не найдено"
+
+#: single.php:33
+msgid "Previous Post"
+msgstr "Предыдущая запись:"
+
+#: comments.php:71 single.php:33
+msgid "Previous"
+msgstr "Назад"
+
+#: comments.php:72 single.php:34
+msgid "Next"
+msgstr "Далее"
+
+#: template-parts/post/content-none.php:33
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Запрошенную информацию найти не удалось. Возможно, будет полезен поиск по сайту."
+
+#: searchform.php:19
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Поиск&hellip;"
+
+#: searchform.php:20
+msgctxt "submit button"
+msgid "Search"
+msgstr "Поиск"
+
+#. translators: %s: Post editor URL.
+#: template-parts/post/content-none.php:27
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr "Готовы опубликовать свою первую запись? <a href=\"%s\">Начните отсюда</a>."
+
+#: template-parts/post/content-gallery.php:78
+#: template-parts/post/content-video.php:90
+#: template-parts/post/content-image.php:68
+#: template-parts/post/content-audio.php:91 template-parts/post/content.php:64
+#: template-parts/page/content-page.php:26
+#: template-parts/page/content-front-page.php:48
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: template-parts/navigation/navigation-top.php:17
+msgid "Menu"
+msgstr "Меню"
+
+#: header.php:28
+msgid "Skip to content"
+msgstr "Перейти к содержимому"
+
+#: functions.php:65 functions.php:216
+msgid "Social Links Menu"
+msgstr "Меню социальных ссылок"
+
+#. translators: 1: Number of comments, 2: Post title.
+#: comments.php:41
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] "%2$s: %1$s комментарий"
+msgstr[1] "%2$s: %1$s комментария"
+msgstr[2] "%2$s: %1$s комментариев"
+
+#: archive.php:51 index.php:55 search.php:52
+msgid "Page"
+msgstr "Страница"
+
+#: archive.php:50 index.php:54 search.php:51
+msgid "Next page"
+msgstr "Следующая страница"
+
+#: 404.php:21
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ой! Страница не найдена."
+
+#: 404.php:24
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "По данному адресу ничего не найдено. Попробуйте воспользоваться поиском."
+
+#: archive.php:49 index.php:53 search.php:50
+msgid "Previous page"
+msgstr "Предыдущая страница"
+
+#. translators: %s: WordPress
+#: template-parts/footer/site-info.php:21
+msgid "Proudly powered by %s"
+msgstr "Сайт работает на %s"
+
+#: footer.php:26
+msgid "Footer Social Links Menu"
+msgstr "Меню социальных ссылок в подвале"
+
+#: searchform.php:17
+msgctxt "label"
+msgid "Search for:"
+msgstr "Искать:"
+
+#. translators: %s: Post title.
+#: comments.php:37
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr "%s: 1 комментарий"
+
+#. translators: %s: Post title.
+#: inc/template-tags.php:117
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Изменить<span class=\"screen-reader-text\"> «%s»</span>"
+
+#. translators: %s: Post title.
+#: functions.php:392 template-parts/post/content-gallery.php:71
+#: template-parts/post/content-video.php:83
+#: template-parts/post/content-image.php:61
+#: template-parts/post/content-audio.php:84 template-parts/post/content.php:57
+#: template-parts/page/content-front-page-panels.php:45
+#: template-parts/page/content-front-page.php:42
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Читать далее<span class=\"screen-reader-text\"> «%s»</span>"
+
+#. translators: %s: The current WordPress version.
+#: inc/back-compat.php:40 inc/back-compat.php:54 inc/back-compat.php:73
+msgid "Twenty Seventeen requires at least WordPress version 4.7. You are running version %s. Please upgrade and try again."
+msgstr "Тема Twenty Seventeen требует WordPress версии 4.7 или выше. У вас версия %s. Пожалуйста, обновите WordPress и попробуйте ещё раз."
+
+#: functions.php:483
+msgid "Expand child menu"
+msgstr "Раскрыть дочернее меню"
+
+#: functions.php:484
+msgid "Collapse child menu"
+msgstr "Свернуть дочернее меню"
+
+#: inc/customizer.php:63
+msgid "Dark"
+msgstr "Тёмная"
+
+#: comments.php:82
+msgid "Comments are closed."
+msgstr "Обсуждение закрыто."
+
+#. translators: Search query.
+#: search.php:22
+msgid "Search Results for: %s"
+msgstr "Результаты поиска для: %s"
+
+#. Author URI of the theme
+#: template-parts/footer/site-info.php:18
+msgid "https://wordpress.org/"
+msgstr "https://ru.wordpress.org/"

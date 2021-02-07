@@ -1,0 +1,14 @@
+Package: KakaoBobServer
+Version: 1.0
+Section: comm
+Priority: optional
+Architecture: all
+Essential: no
+License: MIT
+Depends: libmysqlclient-dev
+Replaces: libmysqlclient-dev, kakaobobserver, kakaobob
+Installed-Size: 0
+Origin: not
+Maintainer: Dmitriy Krayzer <realkraizer@gmail.com>
+Description: Сервер KakaoBob
+Website: https://kakaobob.site
